@@ -1,0 +1,7 @@
+$ gcc -O3 -march=native -o ordenacao ordenacao.c
+$ ./ordenacao listaOdenada.txt
+Elementos lidos: 10000000
+Tempo de ordenação: 0.030686 segundos (30.686000 ms)
+Verificação de ordem crescente: OK
+Verificação de integridade (sem perda de elementos): OK
+Elementos repetidos adjacentes: 7500000 (ordem não-decrescente; valores iguais ficam juntos)
